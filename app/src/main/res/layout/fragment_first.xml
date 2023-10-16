@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C30F23"
+    tools:context=".FirstFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+
+        <TextView
+            android:id="@+id/zero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/_0"
+            android:textColor="@color/white"
+            android:textSize="59sp"
+            android:gravity="center"/>
+
+
+
+        <Button
+            android:id="@+id/plus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:textSize="34sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="58sp"
+            android:layout_marginStart="48dp"
+            />
+        <Button
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:textSize="34sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="58sp"
+            android:layout_marginRight="48dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:id="@+id/resultat"
+            android:textSize="45sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="140sp"
+            />
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+</FrameLayout>
